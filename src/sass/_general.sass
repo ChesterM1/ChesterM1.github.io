@@ -1,0 +1,220 @@
+.mobile
+    min-height: 864px
+    padding: 48px 0 79px 0
+    background: url('../img/bg/mobile_bg.png') center (center/cover) no-repeat
+    .row
+        margin-top: 32px
+    &_item
+        width: 320px
+        height: 280px
+        margin: 0 auto
+        margin-bottom: 19px
+        padding-top: 92px
+        position: relative
+        &_1
+            background: url('../img/cards/card_1.png') center (center/cover) no-repeat
+        &_2
+            background: url('../img/cards/card_2.png') center (center/cover) no-repeat
+        &_3
+            background: url('../img/cards/card_3.png') center (center/cover) no-repeat
+        &_4
+            background: url('../img/cards/card_4.png') center (center/cover) no-repeat
+        &_5
+            background: url('../img/cards/card_5.png') center (center/cover) no-repeat
+        &_6
+            background: url('../img/cards/card_6.png') center (center/cover) no-repeat
+        &_subtitle
+            font-size: 24px
+            text-transform: uppercase
+            font-weight: 400
+            text-align: center
+            color: #fff
+        &_plus
+            width: 26px
+            height: 26px
+            background-color: #000
+            border-radius: 100%
+            text-align: center
+            display: flex
+            justify-content: center
+            align-items: center
+            position: absolute
+            bottom: 25px
+            left: 50%
+            transform: translate(-50%)
+            cursor: pointer
+
+
+.reason
+    min-height: 896px
+    background: url('../img/bg/mobile_bg.png') center (center/cover) no-repeat
+    z-index: 1
+    &_wrap
+        position: relative
+        background-color: #070716
+        z-index: 2
+    &_title_wrap
+        min-height: 499px
+        padding-top: 56px
+    .label
+        background-color: #fff
+        color: #070716
+    .title
+        color: #fff
+    .subtitle
+        color: #fff
+    &_bottom
+        min-height: 391px
+        &_img
+        position: absolute
+        left: 50%
+        top: 232px
+        transform: translate(-50%)
+        &_text
+            font-size: 17px
+            font-weight: 300
+            text-align: center
+            color: #222222
+
+
+.require
+    padding: 68px 0 87px 0
+    &_subtitle
+        margin-top: 33px
+        color: rgba(28, 168, 195, 1)
+        font-size: 22px
+        line-height: 24px  
+        font-weight: 400
+    ul
+        margin-top: 20px
+        list-style-type: none
+        li
+            font-size: 17px
+            line-height: 24px
+            font-weight: 300
+            color: #222222
+            margin: 5px
+            position: relative
+            &:before
+                content: ''
+                background: url('../img/check_green.png') center (center/cover) no-repeat
+                width: 21px
+                height: 20px
+                display: block
+                position: absolute
+                left: -30px
+                top: 3px
+    &_info_text
+        font-size: 17px
+        line-height: 24px
+        font-weight: 300
+        color: #1CA8C3
+        margin-top: 25px
+    .warning
+        .require_subtitle
+            color: rgba(255, 86, 86, 1);
+        ul
+            li
+                &:before
+                    background: url('../img/check_red.png') center (center/cover) no-repeat
+
+.map
+    min-height: 720px
+    background: url('../img/bg/world_bg.png') center (center/cover) no-repeat
+    padding: 46px 0 22px
+    .label
+        background: #fff
+        color: #070716
+        font-size: 11px
+        width: 79px
+        height: 27px
+    .title
+        color: #fff
+        margin-top: 26px
+    .subtitle
+        color: #fff
+    &_view
+        margin-top: 626px
+        text-align: center
+        &_item
+            color: #1FBAD6
+            font-size: 15px
+            font-weight: 400
+            line-height: 68px
+            text-transform: uppercase
+
+footer
+    padding: 20px 0 45px 0
+    .divine
+        width: 301px
+        height: 7px
+        background: #1FBAD6
+        margin: 0 auto
+    .wrapper>div
+        width: 33%
+    .wrapper
+        display: flex
+        justify-content: space-between
+        margin-top: 35px
+    
+        .icons
+            display: flex
+            justify-content: flex-start
+            margin-left: 30px
+            &_social
+                // width: 35px
+                // height: 35px
+                // background: #000
+                margin-right: 15px
+                border-radius: 100%
+                a
+                    i
+                        font-size: 35px
+                        color: #000
+        &_center
+            text-align: center
+            .navigate
+                display: flex
+                justify-content: space-around
+                padding: 0 20px
+                &_link
+                    a
+                        font-size: 15px
+                        font-weight: 300
+                        color: #070716
+                        text-transform: uppercase
+            .support
+                display: flex
+                justify-content: center
+                margin-top: 15px
+                &_link
+                    padding: 0 12px
+                    a
+                        font-size: 11px
+                        font-weight: 300
+                        color: #999999
+                        text-transform: uppercase 
+                        text-align: center
+        .store
+            display: flex
+            justify-content: flex-end
+            &_item
+                &_link
+                    width: 95px
+                    height: 27px
+                    background: #000
+                    display: block
+                    margin-right: 10px
+    .lang
+        margin-top: 15px
+        display: flex
+        justify-content: center
+        a
+            color: #1FBAD6
+            font-size: 11px
+            font-weight: 400
+            text-transform: uppercase
+
+.subheader
+    .xs-visible
+        display: none
